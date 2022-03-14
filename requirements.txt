@@ -1,0 +1,42 @@
+Version8
+[x] there should be a button to add a todo
+[x] there should be a button to edit a todo
+[x] there should be a button to remove a todo
+[x] there should be a button to toggle a todo
+
+Version7
+[x] it should have a button for displaying todos
+[x] the button should run the displayTodos function
+[x] it should have a toggle all button
+[x] the button should run the toggleAll function
+
+Version6
+[x] it should have a function for toggling all todos
+[x] if everything is false then we should change everything to true
+[x] if everything is true then everything should be false (change it)
+[x] if mixed then change everything to true
+
+Version5
+[x] it should have a function for displaying todos
+[x] displayTodos should show the todoText property
+[x] displayTodos should show completed property (both same line)
+
+Version4
+[x] we should have a function to toggle a todo
+
+Version3
+[x] we should initialize the todos variable with objects, instead of strings
+[x] we want the add function to add objects to our array
+[x] the edit function should edit objects
+
+Version2
+[x] it should have a function to add a todo
+[x] it should have a function to edit a todo
+[x] it should have a function to remove a todo
+
+Version1 
+[x] it should have a place to store todos
+[x] it should have a way to display todos
+[x] it should have a way to add a todo
+[x] it should have a way to edit a todo 
+[x] it should have a way to remove a todo
