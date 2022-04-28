@@ -1,3 +1,8 @@
+Version9
+[x] there should be an li for each todo
+[x] each li should show the todoText property
+[]
+
 Version8
 [x] there should be a button to add a todo
 [x] there should be a button to edit a todo
