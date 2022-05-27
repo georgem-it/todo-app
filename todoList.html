@@ -25,7 +25,7 @@
 
   <script>
     var todos = [
-      { todoText: 'item1', completed: true },
+      { todoText: 'item1', completed: false },
       { todoText: 'item2', completed: true },
       { todoText: 'item3', completed: true }
     ];
@@ -66,17 +66,19 @@
 
     function displayToDos() {
 
-
-      for (let i = 0; i < todos.length; i++) {
-        console.log(todos[i]);
-      }
-
       let toDoul = document.getElementById("todo-list-ul");
       toDoul.innerHTML = '';
 
       for (let i = 0; i < todos.length; i++) {
         let toDoli = document.createElement('li');
-        toDoli.innerText = todos[i].todoText;
+        let done = todos[i].completed;
+        if (done == true) {
+          done = '[X] ';
+        } else if (done == false) {
+          done = '[ ] ';
+        }
+
+        toDoli.innerText = done + todos[i].todoText;
         toDoul.appendChild(toDoli);
       }
     }
